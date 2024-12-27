@@ -65,7 +65,7 @@ This POC tool utilizes the Shodan API to identify exposed printers, allowing res
 ### Main Script
 Run the primary script to discover printers and send data:
 ```bash
-python storm_of_print.py
+python StormInk.py
 ```
 
 #### Workflow
@@ -76,7 +76,7 @@ python storm_of_print.py
 ### Small Storm Script
 Alternatively, use the smaller script for file-based targeting:
 ```bash
-python small_storm.py
+python SmallInk.py
 ```
 This script requires:
 - A file containing printer IPs.
